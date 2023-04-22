@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head>
+    <h1>
+        <font size="+2">You can get help here :)</font>
+    </h1>
+    <br>
+    <button
+            type="button" onclick="alert('Your profile shows your user name and your current booked seats with us.')">What do I see on my profile?
+    </button>
+    <button
+            type="button" onclick="alert('First, log in or sign up. Then go to bookings, there you can enter first your row and the seat number of your choosing.')">How do I book a seat?
+    </button>
+    <button
+            type="button" onclick="alert('Yes, after your booking you will receive an email for confirmation.')">Do I receive a confirmation about my booking?
+    </button>
+    <button
+            type="button" onclick="alert('As an admin you have the right to access and download statistical data. If you want admin rights, please bribe the website's developers :)')">Are any statistics available?
+    </button>
+</head>
+
+
+{% endblock %}

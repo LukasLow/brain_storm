@@ -1,0 +1,4 @@
+auth/
+instance/db.sqlite
+flask_auth_app/project/__pycache__
+flask_auth_app/instance/db.sqlite

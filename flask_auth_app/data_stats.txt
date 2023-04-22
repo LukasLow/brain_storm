@@ -1,0 +1,10 @@
+Here's some statistics :)
+
+Number of available seats: 60
+Percentage of available seats: 100.0%
+Number of reserved seats: 0
+Percentage of reserved seats: 0.0%
+List of available seats: ['1A', '1B', '1C', '1D', '1E', '1F', '2A', '2B', '2C', '2D', '2E', '2F', '3A', '3B', '3C', '3D', '3E', '3F', '4A', '4B', '4C', '4D', '4E', '4F', '5A', '5B', '5C', '5D', '5E', '5F', '6A', '6B', '6C', '6D', '6E', '6F', '7A', '7B', '7C', '7D', '7E', '7F', '8A', '8B', '8C', '8D', '8E', '8F', '9A', '9B', '9C', '9D', '9E', '9F', '10A', '10B', '10C', '10D', '10E', '10F']
+List of reserved seats: []
+Here's the number of users: 4
+Here's a list of the users ['ID: 1 EMAIL: admin@test.com NAME: admin', 'ID: 2 EMAIL: user1@test.com NAME: user1', 'ID: 3 EMAIL: user2@test.com NAME: user2', 'ID: 4 EMAIL: user3@test.com NAME: user3']

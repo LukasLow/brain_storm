@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  <p><u>Here's some statistics</u></p>
+  <p>number available: {{ num_available }}</p>
+  <p>percent available: {{ per_available }}%</p>
+  <p>number reserved: {{ num_reserved }}</p>
+  <p>percent reserved: {{ per_reserved }}%</p>
+  <p>list reserved: {% for l in list_reserved %}
+                        <FONT COLOR=red>{{ l }}</FONT>
+        {% endfor %}</p>
+  <p>list available: {% for l in list_available %}
+                        <FONT COLOR=lime>{{ l }}</FONT>
+        {% endfor %}</p>
+  <p>number users: {{ num_users }}</p>
+  <p>list of users: <p></p>{% for l in list_users %}
+                        <FONT COLOR=black>{{ l }}</FONT><p></p>
+        {% endfor %}</p>
+    <br>
+    <button onclick="window.location='/save_to_file';">Save to file
+    </button>
+</h1>
+{% endblock %}
+
+

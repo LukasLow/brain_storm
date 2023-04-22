@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Welcome, <FONT COLOR=black>{{ name }}</FONT> with email: <FONT COLOR=black>{{ email }}</FONT>!
+  <p>seats booked for you: <p></p>{% for l in user_seats %}
+                        <FONT COLOR=black>{{ l }}</FONT><p></p>
+        {% endfor %}</p>
+</h1>
+{% endblock %}
